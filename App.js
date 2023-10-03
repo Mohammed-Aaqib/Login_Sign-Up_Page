@@ -1,10 +1,11 @@
-import LoginSignup from "./LoginSignup";
+import React from 'react';
+import AuthPage from './AuthPage';
+import './App.css'
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <LoginSignup />
+      <AuthPage />
     </div>
   );
 }
